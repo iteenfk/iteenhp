@@ -6,9 +6,13 @@
 header{
     background-color: aqua;
 }
-
 main{
     background-color: yellow;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 footer{
@@ -17,16 +21,17 @@ footer{
 }
 
 h1{
-text-align:center;
+    font-size: 30px;
+    text-align: center;
 }
 
 nav li{
     display: inline-block;
     background-color: blue;
     color: white;
-    width: 150px;
+    width: 100px;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 5px;
     margin: 10px;
 }
 
@@ -36,14 +41,25 @@ nav ul{
     flex-wrap: wrap;
 }
 
-.ma{
+.x{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin: 5px;
+    padding: 10px;
+    border: 2px dotted red;
+}
+
+.y{
+    margin: 5px;
+    padding: 10px;
+    border: 2px dotted black;
+
 }
 
 footer p{
-    text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
+    text-align: center;
+    line-height: 60px;
 }
